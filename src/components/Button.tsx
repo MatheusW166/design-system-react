@@ -1,13 +1,15 @@
-import { ReactNode } from "react";
+import { Slot } from "@radix-ui/react-slot";
+import { ButtonHTMLAttributes, ReactNode } from "react";
 
-export interface ButtonProps {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     children: ReactNode;
+    useTag?: boolean;
 }
 
-export function Button({ children }: ButtonProps) {
-
+export function Button({ children, useTag = false, className, ...props }: ButtonProps) {
+    const Tag = useTag ? Slot : 'button';
     return (
-        <button className={
+        <Tag className={
             `py-3 px-4 
             bg-cyan-500 
             text-gray-900 
@@ -15,9 +17,12 @@ export function Button({ children }: ButtonProps) {
             ring-gray-100
             rounded font-semibold 
             text-sm w-full 
-            focus:ring-2`
-        }>
+            focus:ring-2 
+            ${className}`
+        }
+            {...props}
+        >
             {children}
-        </button>
+        </Tag>
     )
 }
