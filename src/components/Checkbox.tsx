@@ -1,6 +1,5 @@
 import { Root, Indicator } from '@radix-ui/react-checkbox'
 import { Check } from 'phosphor-react'
-import { ReactNode } from 'react'
 
 export interface CheckboxProps { }
 
