@@ -6,7 +6,19 @@ export default {
     component: Text,
     args: {
         children: 'Lorem ipsum',
-    }
+    },
+    argTypes: {
+        children: {
+            table: {
+                disable: true,
+            },
+        },
+        useTag: {
+            table: {
+                disable: true,
+            }
+        },
+    },
 } as Meta<TextProps>
 
 export const Small: StoryObj<TextProps> = {

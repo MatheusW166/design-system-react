@@ -6,6 +6,18 @@ export default {
     component: Heading,
     args: {
         children: 'Lorem ipsum',
+    },
+    argTypes: {
+        children: {
+            table: {
+                disable: true,
+            },
+        },
+        useTag: {
+            table: {
+                disable: true,
+            }
+        },
     }
 } as Meta<HeadingProps>
 
@@ -25,4 +37,15 @@ export const Large = {
     args: {
         size: 'lg',
     }
+} as StoryObj<HeadingProps>
+
+
+export const CustomComponent = {
+    args: {
+        useTag: true,
+        children: (
+            <h1>Heading with H1</h1>
+        )
+    },
+
 } as StoryObj<HeadingProps>
