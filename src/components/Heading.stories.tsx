@@ -39,7 +39,6 @@ export const Large = {
     }
 } as StoryObj<HeadingProps>
 
-
 export const CustomComponent = {
     args: {
         useTag: true,
