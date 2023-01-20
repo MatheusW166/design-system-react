@@ -8,12 +8,12 @@ Aplicação disponível no link abaixo:
 
 O design system foi criado durante o evento Ignite Lab da [Rocketseat](https://www.rocketseat.com.br/). O evento consiste em 5 dias de implementação de um design front-end feito com Figma e na documentação dos componentes utilizando Storybook.
 
-## Teoria
+## ✏ Teoria
 Design System é uma coleção de componentes reutilizáveis, padronizados para determinado produto, site ou sistema web. Diferente de um style guide (guia de estilos), um design system vai além: o design system unifica a linguagem de um determinado produto.
 
 Encare o design system não como um projeto, mas como um produto interno da empresa, que precisa de pessoas que o atualizem enquanto desenvolvem soluções novas, novos componentes, novos guias de estilo. De botões arredondados e snippets de códigos à concepções de aplicação de marca, tom de voz de texto e o microcopy.
 
-## Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 ### Protótipo
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
@@ -26,7 +26,7 @@ Encare o design system não como um projeto, mas como um produto interno da empr
 ### Documentação
 ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
 
-## Páginas do Figma
+## 🎨 Páginas do Figma
 ### Layout principal
 ![Tela de login](https://github.com/MatheusW166/design-system-react/blob/main/refs/login_screen.png)
 
@@ -36,5 +36,5 @@ Encare o design system não como um projeto, mas como um produto interno da empr
 ### Paleta de cores
 ![Cores](https://github.com/MatheusW166/design-system-react/blob/main/refs/colors.png)
 
-## Referências
+## 📖 Referências
 - [Design Systems: exemplos práticos](https://www.alura.com.br/artigos/design-systems-exemplos-praticos)
