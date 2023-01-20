@@ -1,7 +1,10 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/MatheusW166/design-system-react/blob/main/LICENCE)
 
 # Design system com React
-Clique no link a seguir para ter acesso a documentação dos componentes do design system feita com Storybook [Design System](https://matheusw166.github.io/design-system-react/).
+Aplicação disponível no link abaixo:
+- [Design System](https://matheusw166.github.io/design-system-react/)
+
+![Storybook Page](https://github.com/MatheusW166/design-system-react/blob/main/refs/storybook_page.png)
 
 O design system foi criado durante o evento Ignite Lab da [Rocketseat](https://www.rocketseat.com.br/). O evento consiste em 5 dias de implementação de um design front-end feito com Figma e na documentação dos componentes utilizando Storybook.
 
