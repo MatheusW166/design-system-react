@@ -13,7 +13,7 @@ Aplicação disponível no link abaixo:
 O design system foi criado durante o evento Ignite Lab da [Rocketseat](https://www.rocketseat.com.br/). O evento consiste em 5 dias de implementação de um design front-end feito com Figma e na documentação dos componentes utilizando Storybook.
 </span>
 
-## <span id="teoria">✏ Teoria</span>
+## <span id="teoria">📝 Teoria</span>
 Design System é uma coleção de componentes reutilizáveis, padronizados para determinado produto, site ou sistema web. Diferente de um style guide (guia de estilos), um design system vai além: o design system unifica a linguagem de um determinado produto.
 
 Encare o design system não como um projeto, mas como um produto interno da empresa, que precisa de pessoas que o atualizem enquanto desenvolvem soluções novas, novos componentes, novos guias de estilo. De botões arredondados e snippets de códigos à concepções de aplicação de marca, tom de voz de texto e o microcopy.
